@@ -1,0 +1,15 @@
+# Sysinternals tools have their own license - do not commit them
+handle*.exe
+tools/
+
+# Logs / output
+*.log
+*.tmp
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp

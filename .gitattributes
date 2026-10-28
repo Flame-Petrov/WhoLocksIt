@@ -1,0 +1,10 @@
+# Default: normalise text files
+* text=auto
+
+# cmd.exe needs CRLF line endings, otherwise labels/goto can break
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.reg text eol=crlf
+*.ps1 text eol=crlf
+
+*.md  text eol=lf
